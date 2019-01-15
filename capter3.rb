@@ -1,7 +1,7 @@
 # 3-1
-a = 2
-a > 365
-a == 1 + 1
+puts a = 2
+puts a > 365
+puts a == 1 + 1
 
 # 3-2
 season = '春'
@@ -28,7 +28,7 @@ puts '範囲外です' if x <= 0 || x >= 100
 x = 0
 y = -1
 z = 1
-puts '正の数です' if x || y || z > 0
+puts '正の数です' if x > 0 || y > 0 || z > 0 
 
 # 3-5
 season = '春'
@@ -42,5 +42,5 @@ else
 end
 
 # 3-6
-2.times { puts "カフェラテ\nモカ\nモカ"}
-puts "フラペチーノ"
+2.times { puts "カフェラテ\nモカ\nモカ" }
+puts 'フラペチーノ'
