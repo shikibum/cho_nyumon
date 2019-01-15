@@ -31,7 +31,7 @@ sum = 0
 a.each { |n| sum += n }
 p sum
 
-drinks = %w[]
+drinks = []
 drinks.each do |drink|
   p drink
 end
