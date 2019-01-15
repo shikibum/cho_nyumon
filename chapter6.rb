@@ -24,19 +24,19 @@ keys.map { |key| [key, array.count(key)] }.to_h
 # 6-3
 menu = { 'コーヒー' => 300, 'カフェラテ' => 400 }
 menu.each do |key, value|
-  puts "#{key} - #{value}円 "
+  puts "#{key} - #{value}円"
 end
 
 menu.each do |key, value|
-  puts "#{key} - #{value}円 " if value >= 350
+  puts "#{key} - #{value}円" if value >= 350
 end
 
 menu = {}
 menu.each do |key, value|
-  puts "#{key} - #{value}円 "
+  puts "#{key} - #{value}円"
 end
 # => {}
 
 menu = { 'コーヒー' => 300, 'カフェラテ' => 400 }
-menu.keys.to_a
+menu.keys
 
