@@ -2,6 +2,7 @@
 def order
   puts 'カフェラテをください'
 end
+order
 
 # 7-2
 def area(x)
