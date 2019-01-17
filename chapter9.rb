@@ -22,7 +22,7 @@ puts drink.name
 module EspressoShot
   PRICE = 100
 end
-puts EspressoShot:: PRICE
+puts EspressoShot::PRICE
 
 # 9-3
 require_relative 'chapter9-3'
